@@ -1,3 +1,10 @@
+name: new workflow
+run-name: ${{ github.actor }} is testing out GitHub Actions 🚀
+on:
+  push:
+    branches:
+      - main
+
 jobs:
   get-ocir-repository-test:
     runs-on: ubuntu-22.04 Test
