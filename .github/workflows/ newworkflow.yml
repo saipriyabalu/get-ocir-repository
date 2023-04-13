@@ -28,7 +28,7 @@ jobs:
         with:
           auth_token: ${{ secrets.OCI_AUTH_TOKEN }}
 
-      - name: Tag and push a container image
+      - name: Tag and push a container image test
         id: tag-and-push-image
         run: |
           docker pull oraclelinux:8-slim
